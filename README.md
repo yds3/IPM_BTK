@@ -6,7 +6,7 @@ This repository is the official implementation of [Beyond Textual Knowledge: Lev
 
 
 
-![framework](files/teaser.png)
+![framework](1/1.png)
 
 
 ## Requirements
@@ -36,7 +36,7 @@ wget https://nlp.cs.unc.edu/data/model_LXRT.pth -P datasets/pretrained
 Combine behavior cloning and auxiliary proxy tasks in pretraining:
 ```pretrain
 cd pretrain_src
-bash run_reverie.sh # (run_soon.sh, run_r2r.sh, run_r4r.sh)
+bash run_reverie.sh # (run_r2r.sh)
 ```
 
 ## Fine-tuning & Evaluation
@@ -44,5 +44,5 @@ bash run_reverie.sh # (run_soon.sh, run_r2r.sh, run_r4r.sh)
 Use pseudo interative demonstrator to fine-tune the model:
 ```finetune
 cd map_nav_src
-bash scripts/run_reverie.sh # (run_soon.sh, run_r2r.sh)
+bash scripts/run_reverie.sh # (run_r2r.sh)
 ```
