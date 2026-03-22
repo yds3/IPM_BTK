@@ -6,7 +6,7 @@ This repository is the official implementation of [Beyond Textual Knowledge: Lev
 
 
 
-![framework](1/1.png)
+![framework](1.png)
 
 
 ## Requirements
